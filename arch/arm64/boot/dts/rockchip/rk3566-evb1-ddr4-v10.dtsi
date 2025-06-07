@@ -92,13 +92,13 @@ vcc2v5_sys: vcc2v5-ddr {
           #sound-dai-cells = <0>;
 /*        clocks = <&cru I2S1_MCLKOUT>;
           clock-names = "mclk";*/
-          assigned-clocks = <&cru I2S1_MCLKOUT>,<&cru I2S1_MCLK_TX_IOE>;
+        /*  assigned-clocks = <&cru I2S1_MCLKOUT>,<&cru I2S1_MCLK_TX_IOE>;
           assigned-clock-rates = <12288000>;
           assigned-clock-parents = <&cru I2S1_MCLKOUT_TX>, <&cru I2S1_MCLKOUT_TX>;
           clocks = <&cru I2S1_MCLKOUT>;
           clock-names = "mclk";
           pinctrl-names = "default";
-          pinctrl-0 = <&i2s1m0_mclk>;
+          pinctrl-0 = <&i2s1m0_mclk>;*/
           status = "okay";
     };
 
